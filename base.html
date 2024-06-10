@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cepheus: Finding Our Home Amongst the Stars</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+
+<body class="scroll">
+    <section class="back">
+        <h1>
+            <a class="Cepheus" href="home.html">Cepheus</a>
+        </h1>
+        <header>
+            <nav>
+                <ul class="nav">
+                    <li class="nav2">
+                        <div class="dropdown">
+                            <button class="dropbtn">Mission</button>
+                            <div class="dropdown-content">
+                                <a class="a" href="overview.html">Overview</a>
+                                <a class="a" href="team.html">Team</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav1">
+                        <a class="cepheus" href="Spaceship.html">Spaceship</a>
+                    </li>
+                    <li class="nav2">
+                        <div class="dropdown">
+                            <button class="dropbtn">Discover</button>
+                            <div class="dropdown-content">
+                                <a class="a" href="location.html">Location</a>
+                                <a class="a" href="journey.html">Journey</a>
+                                <a class="a" href="base.html">Base</a>
+                                <a class="a" href="health.html">Health</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav2">
+                        <div class="dropdown">
+                            <button class="dropbtn">Project Highlights</button>
+                            <div class="dropdown-content">
+                                <a class="a" href="goals.html">Goals</a>
+                                <a class="a" href="process.html">Process Log</a>
+                                <a class="a" href="annotations.html">Annotaions & Thinking</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav1">
+                        <a class="cepheus" href="sources.html">Sources</a>
+                    </li>
+                </ul>
+           </nav>
+        </header>
+    </section>
+    <section id="home">
+        <div class="intro">
+            <h1 class="heading" style="font-family: 'Return Space', serif;">Base</h1>
+            <p>Building our first habitat on <b class="mars">Mars</b></p>
+            <script>
+                document.querySelector('.learn-more-btn').addEventListener('click', function(e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+    });
+});
+            </script>
+            </div>
+            <div class="annotation-toggle" onclick="toggleAnnotations('home-annotations')">
+                <i class="fas fa-info"></i>
+            </div>
+            <div id="home-annotations" class="annotations">
+                <p>Annotations for the home section...</p>
+            </div>
+        </section>
+        
+        <style>
+            body {
+                font-family: 'Arial', sans-serif;
+                line-height: 1.6;
+                margin: 0;
+                padding: 20px;
+                background-color: #121212;
+                color: #E0E0E0;
+            }
+            .container {
+                max-width: 800px;
+                margin: auto;
+                background: #1E1E1E;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            }
+            h1, h2, h3 {
+                color: #BB86FC;
+                margin-bottom: 10px;
+            }
+            h1 {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            p {
+                margin-bottom: 15px;
+            }
+            ul {
+                margin: 10px 0 20px 20px;
+                padding: 0;
+                list-style-type: disc;
+            }
+            ul li {
+                margin-bottom: 5px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="container">
+
+             <h3>Initial Steps Upon Arrival and Habitat Requirements</h3>
+        <p>When arriving in a new location, the initial steps that need to be taken are to look for food, water, shelter, people to get help, and clothes.</p>
+        <p>The basic requirements on Earth are:</p>
+        <p><b>Oxygen:</b> Mars' atmosphere, however, is 95% carbon dioxide, 3% nitrogen, and 1.6% argon, and it has traces of oxygen, carbon monoxide, water, methane, and other gases, along with a lot of dust. (Mars Education at Arizona State University, n.d). Since it has 95% carbon dioxide, we can use MOXIE to separate the carbon and oxygen and let the oxygen in the base for humans to breathe.</p>
+        <p><b>Clean Water:</b> Since the Korolev Crater traps a big ice water reservoir, we will get our water from the ice sheets by cutting the ice, liquifying it, and making it go through physical and chemical cleaning processes, mixing it with necessary elements to provide safe and drinkable water for the astronauts.</p>
+        <p><b>Food:</b> To grow food, we will not use soil. We plan to use hydroponics, a way of growing plants without soil. Hydroponics is efficient because it does not require soil, can grow plants all year round, uses less water than traditional soil-based systems, and allows for faster growth and higher yields than traditional soil-based growing systems. With artificial lighting, hydroponics will help plants grow faster. However, other than plants, we also need to eat meat. Humans have evolved to be influenced by meat consumption. Before early humans started agriculture, they depended on hunting animals. This incorporation of meat into the human diet provided essential nutrients that shaped the development of the human brain and increased energy levels, which were important for adaptation and survival. (Nardelli, M.A, 2022) So meat is an important part of our diet. To provide meat, the plan is to freeze gametes from every kind of edible species such as poultry (chickens, quails), fish (salmon, tilapia), livestock (goats, sheep, rabbits, cows, bulls), and aquatic invertebrates (shrimp) and then artificially fertilize them when we get to the base.</p>
+        <p><b>Shelter:</b> Providing shelter for both humans and animals on Mars is important for their safety, health, and well-being. Here are some considerations that were put into developing the shelter(base). For humans, we have considered and stuck with making underground habitats to provide natural protection against radiation, temperature extremes, sandstorms, and others. We have also decided to make some parts of the base overground such as the transporting section of the astronauts, the water system, the energy system, and the oxygen system. For animal shelters, we have decided to make part of the human habitat a controlled closed environment where optimal living conditions for animals are obtained such as temperature, humidity, lighting, and ventilation. The aquatic animals will be fish farmed and put in hydroponics to create a system where the fish waste provides nutrients for plants and the plants filter and clean the water for the fish. By doing so, we create a highly efficient space for producing both protein (fish) and vegetables.</p>
+        <p><b>Optimal Air Pressure:</b> The optimal air pressure on Earth is around 100 kPa to ensure the health and comfort of organisms. To ensure optimal air pressure, we need to utilize advanced pressure control systems to monitor and maintain consistent air pressure. According to ESA, Mars' atmosphere is composed of 95.32% carbon dioxide, 2.7% nitrogen, 1.6% argon, and 0.13% oxygen. The atmospheric pressure at the surface is 6.35 mbar, which is over 100 times less than Earth's. (Dobrijevic , D, 2023). So, the air pressure control systems will put in 100 times air in a room on Mars than it would on Earth to make the air pressure the same as the Earth’s. To back up the system, there will be redundant sensors and backup systems to ensure its reliability.</p>
+        <p><b>Safety from External Danger:</b> To protect the base from external danger, the base is built underground with some parts of its systems placed above, such as the oxygen extraction system (MOXIE), energy production system, water purification, and recycling system, all located in the Central Base Unit.</p>
+        <p><b>Energy:</b> For energy, we have decided to use Martian soil as an energy source. We have chosen Martian soil because we cannot use solar panels as they collect 40% of the energy they would take on Earth. So, getting energy through solar panels is not the most efficient way. And using nuclear energy is a good idea, but that will be done as time passes after we settle on Mars. So the best solution using local resources is using regolith. To get energy from Martian regolith for a base, we can use molten regolith electrolysis. This process includes heating the regolith to a molten state and passing an electric current through it to break down metal oxides and metals. The oxygen can be used for supplying the base with oxygen and being stored as oxygen for emergencies, while the heat generated during the process boils, the harnessed water from the ice (this happens when the water is being purified, so the energy harnessing and the water purification system intersect), spins the turbine and generates electricity, and the electricity is supplied to the base and some of it is stored in batteries for future uses and incidents.</p>
+        </div>
+    <div class="container">
+        <h1>Mars Base Development Program</h1>
+        <p>Sending humans to Mars right away without any preparation is an unwise choice for many reasons, one of them being their lives will be put at risk. So things need to be prepared before they leave, which is what the Mars Base Development Program is.</p>
+    
+        <h2>Phase 1: Robotic Deployment and Initial Construction</h2>
+    
+        <h3>Central Base Unit</h3>
+
+        <p>Robots will be sent from Earth to Mars in several missions. The robots will be equipped with advanced AI and autonomous construction capabilities. Moreover, they will be connected to mission control on Earth to help them build the base for the astronauts. The equipment and materials to build the base will be sent with the robots.</p>
+    
+        <h3>Peripheral Bases and Socialization Hub</h3>
+        <p>The Central Base Unit is constructed first, designed to be the main center for resources and logistics. It will have:</p>
+        <ul>
+            <li>Oxygen production systems (using molten regolith electrolysis)</li>
+            <li>Water extraction, liquefaction, purification, and recycling systems</li>
+            <li>Energy production systems (using molten regolith electrolysis)</li>
+            <li>Food production (hydroponics systems)</li>
+        </ul>
+        <p>The Peripheral Bases are constructed around a small socialization hub that is connected to the Central Base Unit. The four bases will be connected to the small socialization hub and the Central Base Unit via underground or surface tunnels for resource distribution, and pathways for the astronauts.</p>
+    
+        <h3>Infrastructure Setup</h3>
+        <p>Power lines, water pipes, air ducts, air pressure maintenance pipes, and pathways for astronauts to move around, get grown food, and transport their wastes will be installed. Also, communication networks between mission control and within the base will be established to ensure seamless operations.</p>
+    
+        <h2>Phase 2: Human Arrival and Base Exploration</h2>
+    
+        <h3>Human Deployment</h3>
+        <p>Once the initial bases are built, operational, and successfully tested, 20 astronauts will be sent from Earth to Mars. The initial teams will consist of biologists, botanists, engineers, scientists, and medical personnel. All of them will undergo extensive training to ensure their mental and physical resilience to the Martian environment.</p>
+    
+        <h3>Base Expansion</h3>
+        <p>Humans will work on expanding the base structures, installing new living quarters, research labs, and recreational areas. With robotic assistance, humans will continue exploration and diggings on the Martian surface, controlling robots to gather resources and expand the base.</p>
+    
+        <h3>Operational Enhancement</h3>
+        <p>To sustain the technologies that supply oxygen, food, water, and energy, systems will be regularly checked, maintained, and replaced by humans and advanced robots.</p>
+    
+        <h3>Exploration and Resource Utilization</h3>
+        <p>Humans and robots will conduct research on the Martian ground to find minerals and rocks that will aid in the expansion and maintenance of the base.</p>
+    
+        <h2>Phase 3: Long-Term Sustainability and Growth</h2>
+    
+        <h3>Research and Development</h3>
+        <p>Continuous research and development will focus on improving oxygen extraction and electricity production systems, with plans to incorporate nuclear power for additional electricity. Innovations in agriculture, recycling, and habitat construction will be prioritized.</p>
+    
+        <h3>Expansion of Habitats</h3>
+        <p>New habitats and modules will be constructed to accommodate more astronauts and, over time, permanent settlers. Additional research labs, resource systems, and new bases will be created, specifically designed for ordinary settlers rather than just mission personnel.</p>
+    <h3>Description of the Base</h3>
+    <p>The Base is going to have one Central Base Unit, one Socialing Hub, and 4 peripheral bases where the colonists will live. The socialisation hub is for the connectedness and sense of community between the colonists and since there are 20 colonists, there are 4 bases with 5 people living in each. The socliasation hub is connected to the Central Base Unit where all the energy that is processed, extracted oxygen, purified and recycled water, and grown food is transported. Then from the socialisation hub, it transports to every base. </p>
+    <h3>Annotation Images and Plans for the Base</h3>
+    <img src="https://media.discordapp.net/attachments/1222355141823561759/1248632025003327488/Screenshot_2024-06-07_213854.png?ex=6667aa71&is=666658f1&hm=5cbb802a4503eae9ad8cfdbe4c2711e2fb851d5f8407956fa468de4554084e79&=&format=webp&quality=lossless&width=668&height=468" alt="">
+    <p> The Central Unit Base, the big circle shown in the drawing is where all systems are connected to, and some of which are located entirely. All the purified oxygen, electricity, water and food goes from there and goes through a large pipe to the socialisation hub in which everyone can socialise to improve their mood and help their mental health. <br> The base has the kicthen to prepare food with the living room next to it. The bedroom is divided to 5 smaller rooms vertically with plastic walls that can be removed and placed at any time to increase flexibility of the bedroom. And there is the personal room and gym where people can have their personal time other than research and they do exercise which is required and necessary if you are going to Mars. <br> Another room is the storage room where house related, personal things, and food are stored. Right across it is the safety evacuation room just in case something wrong happens with either the systems or a natural disaster happens, the people inside go deeper, get in the safety room and lock themselves in. In there is stored food, oxygen masks, water, and others. And access is gained between rooms through the ladder. </p>
+    <img src="https://media.discordapp.net/attachments/1222355141823561759/1248632025292738681/Screenshot_2024-06-07_213838.png?ex=6667aa71&is=666658f1&hm=f3908e3218f8296bbc3812d150d558e9ed3cd80c090af522598b10e118e27594&=&format=webp&quality=lossless&width=329&height=468" alt="">
+    <p> The second image above shows the systems installed in an underground peripheral base. It includes energy production system, oxygen supply, air pressure system, water purificaiton and recycling.</p></div>
+    
+    </body>
+</html>

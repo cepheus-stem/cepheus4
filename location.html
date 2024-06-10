@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cepheus: Finding Our Home Amongst the Stars</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+
+<body class="scroll">
+    <section class="back">
+        <h1>
+            <a class="Cepheus" href="home.html">Cepheus</a>
+        </h1>
+        <header>
+            <nav>
+                <ul class="nav">
+                    <li class="nav2">
+                        <div class="dropdown">
+                            <button class="dropbtn">Mission</button>
+                            <div class="dropdown-content">
+                                <a class="a" href="overview.html">Overview</a>
+                                <a class="a" href="team.html">Team</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav1">
+                        <a class="cepheus" href="Spaceship.html">Spaceship</a>
+                    </li>
+                    <li class="nav2">
+                        <div class="dropdown">
+                            <button class="dropbtn">Discover</button>
+                            <div class="dropdown-content">
+                                <a class="a" href="location.html">Location</a>
+                                <a class="a" href="journey.html">Journey</a>
+                                <a class="a" href="base.html">Base</a>
+                                <a class="a" href="health.html">Health</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav2">
+                        <div class="dropdown">
+                            <button class="dropbtn">Project Highlights</button>
+                            <div class="dropdown-content">
+                                <a class="a" href="goals.html">Goals</a>
+                                <a class="a" href="process.html">Process Log</a>
+                                <a class="a" href="annotations.html">Annotaions & Thinking</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav1">
+                        <a class="cepheus" href="sources.html">Sources</a>
+                    </li>
+                </ul>
+           </nav>
+        </header>
+    </section>
+    <section id="home">
+        <div class="intro">
+            <h1 class="heading" style="font-family: 'Return Space', serif;">Location</h1>
+            <p>Choosing a Planet</p>
+            <script>
+                document.querySelector('.learn-more-btn').addEventListener('click', function(e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+    });
+});
+            </script>
+            </div>
+            <div class="annotation-toggle" onclick="toggleAnnotations('home-annotations')">
+                <i class="fas fa-info"></i>
+            </div>
+            <div id="home-annotations" class="annotations">
+                <p>Annotations for the home section...</p>
+            </div>
+        </section>
+    
+        <body class="scroll">
+
+            <section id="location">
+                <div class="container">
+                    <h1 class="heading">Location</h1>
+                    <p class="overview"><strong><span>Choosing the Right Planet:</span></strong></p>
+                    <p class="overview1">
+                        To decide the best planet for human settlement, we established a set of criteria to guide our
+                        decision-making process. Then we utilized the criteria and carefully considered and evaluated
+                        each planet after making a list of potential planets and narrowed down the options to the most
+                        viable and realistic choice.
+                        After finding the planet that is easiest and most convenient to settle on, we chose a specific
+                        location on the planet, by creating a set of criteria and picking top places after doing research
+                        and carefully narrowed down to one location of that planet.
+                    </p>
+                    <p class="overview"><span><strong>Criteria for Planet Selection:</strong><span></p>
+                    <p class="overview1">
+                        Proximity to Earth: The planet should be close enough to Earth to allow travel within a
+                        reasonable timeframe and distance. (We considered using cryosleep for longer distances but
+                        there are no real-life experiments that confirm it).<br>
+                        Similar Environmental Conditions: The planet’s conditions must be somewhat similar to Earth’s,
+                        including day length, gravity, axial tilt, size, and others.<br>
+                        Availability of Water: The planet should have H2O in the form of solid, liquid or gas so that
+                        settlers can purify it through processes and utilise it.<br>
+                        Potential for Habitability: The planet should have a realistic potential for being terraformed or
+                        modified for human life. For example, when looking for oxygen in another planet, if there is not
+                        any pure oxygen, then there at least should be molecules containing O2 in the atmosphere so
+                        that the O2 can be extracted through chemical processes for humans to breathe. In short, there
+                        must be a potential or availability of requirements that make the planet liveable.<br>
+                        Radiation Protection: The planet should offer natural features (electromagnetic field) that can
+                        protect against harmful solar and cosmic radiation.<br>
+                        Habitable Zone and Temperature Range: The planet should be in the habitable zone, or the
+                        “Goldilocks Zone” and its surface temperature should be around 59 degrees Fahrenheit (15
+                        degrees Celsius).<br>
+                        Energy Sources: The planet should have natural energy sources such as solar, geothermal, or
+                        wind energy to power human activities.<br>
+                        Access to Natural Resources: The planet should have natural resources, such as metals,
+                        minerals, and other materials necessary for construction and technological advancement.
+                    </p>
+                    <p class="overview"><span><strong>Evaluation of Planets Using The Criteria:</strong></span></p>
+                    <p class="overview1">
+                        <strong>Venus:</strong><br>
+                        Positive: Similar size and mass.<br>
+                        Negative: Extremely high surface temperature (around 460 °C or 800 °F) and an
+                        atmospheric pressure 900 times greater than Earth’s.<br>
+                        Solutions: We can use orbital mirrors to cool down Venus’ surface by reflecting sunlight
+                        away but cooling down will take a lot of time, greater than a realistic timeframe of
+                        escaping Earth. Another solution could be to bombard Venus’ atmosphere with
+                        hydrogen resulting in graphite and water. (Universe Today, n.d). The latter then would fall
+                        to the surface and cover around 80% of the surface in oceans. This requires a
+                        tremendous amount of hydrogen that can be extracted from one of the gas giants, either
+                        Jupiter or Saturn as around 3/4th of their atmospheric composition is hydrogen and the
+                        rest, mainly helium and other minor gases. However, this process would take too much
+                        time for a mission that has a limited time to escape Earth. Moreover, this has not been
+                        done before and it requires lots of energy to do so. And the likelihood of damage to the
+                        gas giant mining platforms is very high. So while there are solutions to the negatives of
+                        Venus, they are unimplementable with the constraints of the decided “Escape Earth”
+                        narrative.<br><br>
+                        <strong>Europa:</strong><br>
+                        Positive: Presence of water under the icy crusts, potential of subsurface oceans.<br>
+                        Negative: Extremely low gravity (~10 x less than Earth’s), leading to severe health issues
+                        such as reduced bone density and muscle atrophy.<br>
+                        Solution: Rotational Habitats that generate artificial gravity through centrifugal force that
+                        simulates gravity might be a solution. However, maintaining the rotation and stability of
+                        these rotational habitats would require a continuous energy supply from Europa.
+                        Generating energy from the movements of water can be a good source but research on
+                        elevation (water needs to fall from a higher elevation to get enough energy. The greater
+                        the height, the greater the gravitational potential energy that will be converted to kinetic
+                        than electricity. Moreover, the gravitational acceleration is around 10x smaller than
+                        Earth’s meaning that the height needs to be high for that to happen) have not been done
+                        yet. Furthermore, living in a rotating habitat can cause disorientation and sickness of
+                        motion in astronauts. There are also long-term psychological and physiological effects
+                        in an artificial gravity environment that need to be studied and addressed.<br><br>
+                        <strong>Gliese 667 C System:</strong><br>
+                        Positive: Multiple habitable planets are found in the habitable zone.<br>
+                        Negative: Extremely distant from Earth, (27 light-years or 27*9.46 trillion =
+                        255439722759682 km), making travel impossible considering that current technology
+                        does not have fast space crafts. The fastest aircraft ever made is X-43 A, a hypersonic
+                        aircraft that travels with a speed of 11,854 km/h. That will take approximately
+                        21548820884 years to reach. This is to show that it takes a significant amount of time to
+                        reach there.<br>
+                        Solution: One solution can be making the fastest spacecraft (which still takes a very long
+                        time to reach) and putting the astronauts to cryosleep for extended by freezing them.
+                        While the idea of replicating hibernation on humans is a good idea, insufficient research
+                        on cellular damage, reawakening process, long-term physiological effects, and even
+                        ensuring whether the person died by then or not makes it hard to rely on cryosleep as
+                        legitimate currently.<br><br>
+                        <strong>Kepler 22b:</strong><br>
+                        Positive: Earth-like Ocean planet located in the habitable zone.<br>
+                        Negative: Extreme distance from Earth, with about 640 light years. Impossible to reach
+                        with current technologies. So we cannot go there any time soon.<br>
+                        Solution and Gaps: Cyrosleep is not yet known as possible or impossible so we can’t
+                        rely on it yet as described for the previous planet.<br><br>
+                        <strong>Mars:</strong><br>
+                        Positives: Signs of past water and icy sheets in the north and south poles of Mars have
+                        been detected and is the closest planet next to Venus. Moreover, 95 percent of Mars’
+                        atmosphere is carbon dioxide which can be used as breathable air after the oxygen is
+                        extracted. Mars is the second closest planet to us and is reachable for humans to travel and settle.<br>
+                        Negatives: Thin atmosphere, extremely cold temperatures, high radiation levels, dust
+                        storms, soil toxicity, reduced gravity, and lack of liquid water.<br>
+                        Solution: For the harsh conditions on Mars, we propose building an underground base
+                        protected from the external harsh conditions and making it liveable and comfortable
+                        inside. Mars’ proximity to us makes this endeavor much easier and more manageable
+                        to make it.
+                    </p>
+                    <p class="overview"><span><strong>Chosen Planet: Mars</strong></span></p>
+                    <p class="overview1">
+                        After weighing the challenges posed by each planet, providing solutions for them, and
+                        providing counterarguments against them,
+                        After conducting an in-depth assessment of the challenges and constraints that come
+                        with each planet, and proposing mitigating strategies and counterarguments, we found
+                        Mars to stand out as the most feasible and realistic option for human settlement based
+                        on our criteria. While Mars already presents significant life-threatening challenges, the
+                        proximity, potential for resources, and manageable conditions make it the best planet to
+                        go to compared to others.
+                    </p>
+                    <p class="overview"><span><strong>We chose Mars, but where specifically?</strong></span></p>
+                    <p class="overview1">
+                        After selecting Mars as the best option for human settlement, the next step is to find the best
+                        specific location on Mars. To do so, we established a set of criteria to guide the decision-making
+                        process and narrowed it down after thorough research and judgment just like the planet-choosing process.
+                    </p>
+                    <p class="overview"><span><strong>Criteria</strong><span></p>
+                    <p class="overview1">
+                        Natural Protection: The location should provide natural protection from intense sandstorms and
+                        radiation coming from the Sun through its protective topography and other geographical
+                        features.<br>
+                        Resource Availability: The location should provide local resources that can be utilized to make
+                        parts of the base (the above parts since most of the base is designed to be underground).<br>
+                        Water Source: The location should have a water source in the form of underground water, water
+                        ice reserves, or any form.<br>
+                        Clear Space of Land: The location should have a clear space of land to build the base and
+                        operate certain tasks without disruptions.
+                    </p>
+                    <p class="overview"><span><strong>Chosen Location: Korolev Crater</strong></span></p>
+                    <img src="https://cdn.discordapp.com/attachments/1222355141823561759/1249570613639512165/Screenshot_2024-06-08_000459.png?ex=6667c8d2&is=66667752&hm=7af376aaa9205ed83673640cd5b4af3b402271f91f092fa8ec60b2db473ea667&" alt="">
+                    <p class="overview1">
+                        After researching specific places, we have decided to land on the Korolev Impact Crater. The
+                        Korolev Crater is an impact crater located in the northern lowlands of Mars, near to the large
+                        dune field of Olympia Undae, which surrounds part of the north polar ice cap. The crater floor
+                        lies two kilometers beneath its rim and is covered in a 1.8-kilometer central mound of water ice
+                        all year round. This deposit has a glacier with the volume of 2200 cubic kilometers of non-polar
+                        ice on Mars. (Mars Express mission, 2019)
+                    </p>
+                    <p class="overview"><strong>Details of the Korolev Crater:</strong></p>
+                    <p class="overview1">
+                        It has a diameter of 82 kilometers.<br>
+                        It is a year-round ice reservoir.<br>
+                        Contains about 2,200 cubic kilometers of water ice.
+                    </p>
+                    <p class="overview"><strong>Reasons we chose the Korolev Crater:</strong></p>
+                    <p class="overview1">
+                        We chose the Korolev Crater as we found it to fit in the criteria set for choosing a specific
+                        location of Mars. The Korolev has a bowl-shaped depression, with steep walls standing up to 2
+                        kilometers that offer some protection from the harsh Martian conditions such as sandstorms,
+                        Martian winds, and cosmic radiation. The Korolev Crater also has a giant deep water ice
+                        reservoir that is approximately 82 kilometers across and 2 kilometers deep. This is greater than
+                        the area of Canberra (814.2 km²) while the area of the Korolev Crater is approximately, 5281
+                        km².
+                    </p>
+                    <img src="https://cdn.discordapp.com/attachments/1222355141823561759/1249570613878718505/Screenshot_2024-06-08_000507.png?ex=6667c8d2&is=66667752&hm=07b2e24520567b0fe47c3b1dc8dd052a0180af62cd94088aa3baf0860c22444c&" alt="">
+                    <p class="overview">
+                        After the astronauts arrive, they will settle on an already prepared base by robots sent in
+                        advance and expand on making it on the blue X mark spot where there is clear land. The
+                        astronauts will utilize already prepared food and water from an already running system
+                        connected to the ice craters.
+                    </p>
+                </div>
+            </section>
+            </body>
+            </html>
+                    </div>
+                </div> 
+        </section>
+        <style>
+            body {
+                font-family: 'Arial', sans-serif;
+                line-height: 1.6;
+                margin: 0;
+                padding: 20px;
+                background-color: #121212;
+                color: #E0E0E0;
+            }
+            .container {
+                max-width: 800px;
+                margin: auto;
+                background: #1E1E1E;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            }
+            h1, h2, h3 {
+                color: #BB86FC;
+                margin-bottom: 10px;
+            }
+            h1 {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            p {
+                margin-bottom: 15px;
+            }
+            span{
+                font-size: large;
+                color: rgb(126, 119, 228)
+            }
+            ul {
+                margin: 10px 0 20px 20px;
+                padding: 0;
+                list-style-type: disc;
+            }
+            ul li {
+                margin-bottom: 5px;
+            }
+        </style>
+    </body>
+</html>

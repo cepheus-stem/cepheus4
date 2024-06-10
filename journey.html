@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cepheus: Finding Our Home Amongst the Stars</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+
+<body class="scroll">
+    <section class="back">
+        <h1>
+            <a class="Cepheus" href="home.html">Cepheus</a>
+        </h1>
+        <header>
+            <nav>
+                <ul class="nav">
+                    <li class="nav2">
+                        <div class="dropdown">
+                            <button class="dropbtn">Mission</button>
+                            <div class="dropdown-content">
+                                <a class="a" href="overview.html">Overview</a>
+                                <a class="a" href="team.html">Team</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav1">
+                        <a class="cepheus" href="Spaceship.html">Spaceship</a>
+                    </li>
+                    <li class="nav2">
+                        <div class="dropdown">
+                            <button class="dropbtn">Discover</button>
+                            <div class="dropdown-content">
+                                <a class="a" href="location.html">Location</a>
+                                <a class="a" href="journey.html">Journey</a>
+                                <a class="a" href="base.html">Base</a>
+                                <a class="a" href="health.html">Health</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav2">
+                        <div class="dropdown">
+                            <button class="dropbtn">Project Highlights</button>
+                            <div class="dropdown-content">
+                                <a class="a" href="goals.html">Goals</a>
+                                <a class="a" href="process.html">Process Log</a>
+                                <a class="a" href="annotations.html">Annotaions & Thinking</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav1">
+                        <a class="cepheus" href="sources.html">Sources</a>
+                    </li>
+                </ul>
+           </nav>
+        </header>
+    </section>
+    <section id="home">
+        <div class="intro">
+            <h1 class="heading" style="font-family: 'Return Space', serif;">Journey</h1>
+            <p>Our Way To <b class="mars">Mars</b></p>
+            <script>
+                document.querySelector('.learn-more-btn').addEventListener('click', function(e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+    });
+});
+            </script>
+            </div>
+            <div class="annotation-toggle" onclick="toggleAnnotations('home-annotations')">
+                <i class="fas fa-info"></i>
+            </div>
+            <div id="home-annotations" class="annotations">
+                <p>Annotations for the home section...</p>
+            </div>
+        </section>
+        <section id="background">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="topic">Overview
+                         <p class="overview">The journey can be divided into 3 parts:
+                            <p class="overview1">1. Escaping Earth's Orbit</p>
+                            <p class="overview1">2. The travel from Earth to Mars</p>
+                            <p class="overview1">3. The plan upon reaching Mars</p>
+                        </p>
+                    </div>
+                </div>
+        </section>
+        <section id="background">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="topic">Escaping Earth's Orbit
+                         <p class="overview">In order to escape earth's orbit:
+                            <p class="overview1">1. We are using Nuclear Thermal Propulsion</p>
+                            <p class="overview1">This is due to the fact that they are extremely  propellant efficient and provide a high thrust(NASA 2024). This also consumes less fuel which allows us to reduce the weight of the rocket(Office of Nuclear Energy 2021).                                
+                            </p>
+                            <p class="overview1">2. How long will it take to build it ?</p>
+                            <p class="overview1">Since we have no constraints in terms of money and manpower it is theoretically possible for the rockets to be built in 5 years(National Air and Space Museum 2013).
+                            </p>
+                            <p class="overview1">3. How many will be built?</p>
+                            <p class="overview1">3 rockets will be built.
+                            </p>
+                        </p>
+                    </div>
+                </div>
+        </section>
+        <section id="background">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="topic">Travelling from Earth to Mars
+                         <p class="overview">In order to travel such a distance efficiently we are using Hohman's Orbit:
+                            <p class="overview1">Reason: </p>
+                            <p class="overview1">1. Saves a lot of fuel  
+                            </p>
+                            <p class="overview1">2. Has been done before
+                            </p>
+                            <p class="overview">The Hohman's Orbit starts from the: </p>
+                            <p class="overview1">  Low Earth Orbit- Travelling with the earth around the Sun.
+                            </p>
+                            <p class="overview1">  Trans Mars Interjection- Fires engines to eject itself from low Earth orbit.
+                            </p>
+                            <p class="overview1"> Interplanetary Transfer- End in an elliptical transfer orbit. Trajectory corrections are to fine tune it's path.
+                            </p>
+                            <p class="overview1"> Mars encounter-Travels for 250 days until Mars orbit catches.
+                            </p>
+                            <p class="overview1">Mars Orbital Insertion-Fires engine to match velocity of Mars so that it can caught by its gravity (Jessy Sia). The entire journey will take 519 days(NASA). 
+                            </p>
+                            <img src="https://cdn.discordapp.com/attachments/1222355141823561759/1248629256297119785/Picture1.jpg?ex=6667a7dd&is=6666565d&hm=1deca97508d751cf34488c14225e00b735137bc084fe6413858d3026cc79c3c5&">
+                        </p>
+                    </div>
+                </div>
+        </section>
+        <section id="background">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="topic">Upon reaching Mars and Landing
+                         <p class="overview1">The same rocket which is being used for travelling will also become a space station. This allows for faster and better communication from Mars to Earth and vice versa. This also creates a space dock which can have emergency supplies.
+                        </p>
+                        <p class="overview1">The same rocket which is being used for travelling will also become a space station. This allows for faster and better communication from Mars to Earth and vice versa. This also creates a space dock which can have emergency supplies.
+                        </p>
+                        <p class="overview1"> Since three rockets will be constructed. 1 will become the space station. 1 will beocme the ship that carries the robots and 1 for carrying humans and other left over supplies. 
+                            Also the rocket carrying the robots will be sent out first. This one will prepare the Martian soil in Korolov Crator along with executing basic base building requirements in preparation for humans. The next two rockets which will be sent are going to be sent together. This will allow for basic communication to be established along with humans being able to eaaily land on Mars.
+                        </p>
+                        <p class="overview"> Landing on Mars </p>
+                        <p class="overview1">
+                            The rockets which will land have special technologies that allows for the thrusters to rotate. This allows for tilts to be corrected when falling through the Martian atmosphere.
+                        </p>
+                    </div>
+                </div>
+        </section>
+        <section id="background">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="topic">The Crew that will go to Mars
+                        <p class="overview">
+                            How many people will go to Mars?
+                        </p>
+                        <p class="overview1">
+                            There will be a team of 20 people. These people will be some of the smartest people in their fields. The team also will hire a few extra people in case of an emergency. Both men and women will be equally numbered. Along with that they also have to meet a certain criteria:
+                        </p>
+                        <p class="overview1">
+                            1.	Be able to pass the NASA long-duration flight astronaut physical                         
+                        </p>
+                        <p class="overview1">
+                            2.	Be specialists in these fields: Engineering, Biology and Geology   
+                        </p>
+                        <p class="overview1">
+                            3.	Have no allergies or diseases
+                        </p>
+                        <p class="overview1">
+                            4.	Should have excellent physical healtH and mental health
+                        </p>
+                        <p class="overview">Training</p>
+                        <p class="overview1"> 
+                            On top of all that they will also be trained rigourously and have will be capable of the below:
+                        </p>
+                        <p class="overview1">
+                            There will be a team of 20 people. These people will be some of the smartest people in their fields. Along with that they also have to meet a certain criteria:
+                        </p>
+                        <p class="overview1">
+                            1. Flight Training for Rocket               
+                        </p>
+                        <p class="overview1">
+                            2. Have a thourough plan to follow throught the trip
+                        </p>
+                        <p class="overview1">
+                            3. Know all the controls for every machine
+                        </p>
+                        <p class="overview1">
+                            4. Basic first aid
+                        </p>
+                        <p class="overview1">
+                            5. Have good co-ordination
+                        </p>
+                        <p class="overview1">
+                            6. Roles and responsibilities are accepted by everyone.
+                        </p>
+                    </div>
+                </div>
+        </section>
+        <style>
+            body {
+                font-family: 'Arial', sans-serif;
+                line-height: 1.6;
+                margin: 0;
+                padding: 20px;
+                background-color: #121212;
+                color: #E0E0E0;
+            }
+            .container {
+                max-width: 800px;
+                margin: auto;
+                background: #1E1E1E;
+                padding: 20px;
+                border-radius: 10px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            }
+            h1, h2, h3 {
+                color: #BB86FC;
+                margin-bottom: 10px;
+            }
+            h1 {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            p {
+                margin-bottom: 15px;
+            }
+            ul {
+                margin: 10px 0 20px 20px;
+                padding: 0;
+                list-style-type: disc;
+            }
+            ul li {
+                margin-bottom: 5px;
+            }
+        </style>
+    </body>
+</html>

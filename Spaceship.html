@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cepheus: Finding Our Home Amongst the Stars</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+
+<body class="scroll">
+    <section class="back">
+        <h1>
+            <a class="Cepheus" href="home.html">Cepheus</a>
+        </h1>
+        <header>
+            <nav>
+                <ul class="nav">
+                    <li class="nav2">
+                        <div class="dropdown">
+                            <button class="dropbtn">Mission</button>
+                            <div class="dropdown-content">
+                                <a class="a" href="overview.html">Overview</a>
+                                <a class="a" href="team.html">Team</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav2">
+                        <div class="dropdown">
+                            <button class="dropbtn">Discover</button>
+                            <div class="dropdown-content">
+                                <a class="a" href="location.html">Location</a>
+                                <a class="a" href="journey.html">Journey</a>
+                                <a class="a" href="base.html">Base</a>
+                                <a class="a" href="health.html">Health</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav2">
+                        <div class="dropdown">
+                            <button class="dropbtn">Project Highlights</button>
+                            <div class="dropdown-content">
+                                <a class="a" href="goals.html">Goals</a>
+                                <a class="a" href="process.html">Process Log</a>
+                                <a class="a" href="annotations.html">Annotaions & Thinking</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav1">
+                        <a class="cepheus" href="sources.html">Sources</a>
+                    </li>
+                </ul>
+           </nav>
+        </header>
+    </section>
+    <section id="home">
+        <div class="intro">
+            <h1 style="font-family: 'Return Space', serif;">Spaceship</h1>
+            <p>The way to go to Mars</p>
+            <script>
+                document.querySelector('.learn-more-btn').addEventListener('click', function(e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+    });
+});
+            </script>
+        </div>
+        <div class="annotation-toggle" onclick="toggleAnnotations('home-annotations')">
+            <i class="fas fa-info"></i>
+        </div>
+        <div id="home-annotations" class="annotations">
+            <p>Annotations for the home section...</p>
+        </div>
+    </section>
+    <section id="background">
+        <div class="container">
+            <div class="wrapper">
+                <div class="topic">The Spaceship
+                     <p class="overview">
+                        Dimensions:
+                        <img src="https://cdn.discordapp.com/attachments/1222355141823561759/1248629257043705896/Picture5.png?ex=6667a7dd&is=6666565d&hm=cd623043d2b9cd9cad75ed4376cdd75f8e45a5f65b9b443322b7b40621f11b67&">
+                        <img src="https://cdn.discordapp.com/attachments/1222355141823561759/1248629257266008074/Picture4.png?ex=6667a7dd&is=6666565d&hm=4d3a99788acc768b044a03645dc58f4a6238085aee57065989566f491dcf4753&">
+                    </p>
+                    <p class="overview">
+                        3d Model of Spaceship:
+                        <img src="https://cdn.discordapp.com/attachments/1222355141823561759/1248629256800567338/Picture6.png?ex=6667a7dd&is=6666565d&hm=abcc6bb80f46a82bc8f96a72e07f8b683e328a3957737a31d245f314b5702523&">
+                        3d Model oh thruster:
+                        <img src="https://cdn.discordapp.com/attachments/1222355141823561759/1248629256544587887/Picture7.png?ex=6667a7dd&is=6666565d&hm=42266abfed729d67158cd3b1e4d7fa1b0fbcfc80fecea8ae5de7a0ede4f50c3b&">
+                    </p>
+                </div>
+            </div>
+    </section>
+    <section id="background">
+        <div class="container">
+            <div class="wrapper">
+                <div class="topic">The Spaceship
+                     <p class="overview1">
+                        The rocket shown above is the rocket that will transport us from earth to mars. 
+                     </p>
+                     <p class="overview">
+                        Materials and weight of rocket
+                    </p>
+                    <p class="overview1">
+                        Materials used for Rocket: Aerospace grade titanium will be used for the frame. If a rocket needs to come back to Earth which can change to a scenario like landing on Mars (like the Space Shuttle), heat shield tiles are made up of silica fibers since they are great insulators. These fibers are then coated by glass to increase their effectiveness(National Air And Space Museum 2017).
+                    </p>
+                    <p class="overview1">
+                        Rocket's estimated weight: 18,700 tonnes. We are assuming that the rocket can lift off from earth as money isn’t the issue and the supplies needed are easily achieved along with time not being much of a constraint. Also, SPACE X’s Super Heavy Starship also weighs 4,000 tonnes approx. Indicating that we can carry almost 5x that number due to lesser constraints as well as the new powerful techonology of Thermal Nuclear Propulsion. . Since we have no constraints in terms of money and manpower it is theoretically possible for the rockets to be built in 5 years(National Air and Space Museum 2013). The spaceship can also comforatbly carry 20 people.
+                    </p>
+                    <p class="overview1">
+                        We are using Nuclear Thermal Propulsion because they are extremely propellant efficient and provide a high thrust(NASA 2024). This also consumes less fuel which allows us to reduce the weight of the rocket(Office of Nuclear Energy 2021).
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #121212;
+            color: #E0E0E0;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #1E1E1E;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+        h1, h2, h3 {
+            color: #BB86FC;
+            margin-bottom: 10px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        ul {
+            margin: 10px 0 20px 20px;
+            padding: 0;
+            list-style-type: disc;
+        }
+        ul li {
+            margin-bottom: 5px;
+        }
+    </style>
+    </body>
+</html>

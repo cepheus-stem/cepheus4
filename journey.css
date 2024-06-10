@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.topic{
+    font-size: 60px;
+    font-weight: bold;
+    padding-bottom: 80px;
+    width: 1000px;
+}
+
+.overview{
+    font-weight: normal;
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 40px !important;
+}
+.overview1{
+    font-weight: normal;
+    text-align: left;
+    padding: 10px 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 10px !important;
+}
+
+.heading{
+    font-size: 100px !important;
+}
